@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+cv-module/datasets/
+cv-module/models/
+cv-module/demo_images/
+cv-module/demo_machine_*/
+*.pt
