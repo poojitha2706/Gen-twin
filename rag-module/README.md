@@ -111,3 +111,6 @@ These routes do not add authentication. Keep them bound to loopback for local de
 - ChromaDB persistence, SentenceTransformer model downloads, authenticated backend calls, and M1/M3/M4 integration are not exercised by the offline QA run; optional services are mocked or absent.
 - Document extraction/ingestion (PDF/TXT/DOCX) must be connected to the actual backend upload pipeline; chat document search currently requires an injected, organisation-scoped backend tool.
 - Production authentication, persistent backend database integration, WebSocket delivery, and frontend behavior are outside this M2-only work and were not tested.
+
+## Authorship
+This module was written by Raviteja. It was imported into the shared repository by Poojitha.
