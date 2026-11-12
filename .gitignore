@@ -224,3 +224,7 @@ cv-module/models/
 cv-module/demo_images/
 cv-module/demo_machine_*/
 *.pt
+
+*.pkl
+rag-module/qa/
+rag-module/artifacts/
