@@ -45,3 +45,6 @@ Sidebar items for later phases are shown disabled with a tooltip naming their ph
 
 Incident records are synthetic and the factory is simulated. Everything drawn from sample data
 carries a "Sample data" badge.
+
+## Authorship
+This frontend was written by <SRUJANA>. It was imported into the shared repository by Poojitha.
