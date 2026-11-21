@@ -1,0 +1,34 @@
+@import '@fontsource/ibm-plex-sans/400.css';
+@import '@fontsource/ibm-plex-sans/500.css';
+@import '@fontsource/ibm-plex-sans/600.css';
+@import '@fontsource/ibm-plex-mono/400.css';
+@import './tokens.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root { height: 100%; }
+  body {
+    @apply bg-background font-sans text-base text-fg antialiased;
+    font-variant-numeric: tabular-nums;
+  }
+  :focus-visible { outline: 2px solid rgb(var(--accent)); outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition-duration: 0ms !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .mono-id { @apply font-mono text-xs; }
+  .glass { background: rgb(var(--surface) / 0.82); backdrop-filter: blur(10px); }
+  .scene-label {
+    @apply pointer-events-none whitespace-nowrap rounded-control border px-2 py-1 text-xs;
+    background: rgb(var(--surface) / 0.85);
+    border-color: rgb(var(--border));
+    color: rgb(var(--text));
+  }
+  .hatched {
+    background-image: repeating-linear-gradient(45deg, transparent 0 4px, rgb(var(--status-paused) / 0.25) 4px 5px);
+  }
+}

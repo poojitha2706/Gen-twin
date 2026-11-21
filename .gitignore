@@ -228,3 +228,6 @@ cv-module/demo_machine_*/
 *.pkl
 rag-module/qa/
 rag-module/artifacts/
+
+frontend/node_modules/
+frontend/dist/
