@@ -231,3 +231,5 @@ rag-module/artifacts/
 
 frontend/node_modules/
 frontend/dist/
+
+!frontend/src/lib/

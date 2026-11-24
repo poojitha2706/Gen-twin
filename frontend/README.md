@@ -1,4 +1,4 @@
-# GenTwin Vision (frontend)
+﻿# GenTwin Vision (frontend)
 
 Real-time smart factory monitoring with a live 3D digital twin. Phase 1 (foundation) plus the
 Overview and public preview screens, so the 3D floor can be seen and judged early.
@@ -36,10 +36,10 @@ Sidebar items for later phases are shown disabled with a tooltip naming their ph
 
 ## Folder map
 
-`src/app` shell and routing · `src/config` policy, status, env · `src/types` Zod schemas ·
-`src/styles` tokens · `src/lib` pure logic · `src/hooks` · `src/components` shared UI and the 3D scene ·
-`src/features` per-screen code · `src/services` the only backend access · `src/store` Zustand ·
-`src/sample` the one sample-data module · `tests` automated tests · `docs` contract and architecture.
+`src/app` shell and routing Â· `src/config` policy, status, env Â· `src/types` Zod schemas Â·
+`src/styles` tokens Â· `src/lib` pure logic Â· `src/hooks` Â· `src/components` shared UI and the 3D scene Â·
+`src/features` per-screen code Â· `src/services` the only backend access Â· `src/store` Zustand Â·
+`src/sample` the one sample-data module Â· `tests` automated tests Â· `docs` contract and architecture.
 
 ## Honesty note
 
@@ -47,4 +47,4 @@ Incident records are synthetic and the factory is simulated. Everything drawn fr
 carries a "Sample data" badge.
 
 ## Authorship
-This frontend was written by <SRUJANA>. It was imported into the shared repository by Poojitha.
+This frontend was written by Srujana. It was imported into the shared repository by Poojitha.

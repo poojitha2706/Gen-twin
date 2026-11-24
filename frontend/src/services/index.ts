@@ -4,6 +4,7 @@ import type { DataService } from './types'
 /** The one place that decides sample vs api. The sample module is never loaded in api mode. */
 export async function loadService(): Promise<DataService> {
   if (env.dataSource === 'sample') return (await import('./sampleService')).sampleService
+  if (env.dataSource === 'render') return (await import('./renderService')).renderService
   return (await import('./apiService')).apiService
 }
 
